@@ -1,0 +1,217 @@
+ ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule | CampusHub</title>
+</head>
+<body>
+
+    <header>
+        <h1>CampusHub</h1>
+        <p>Your Campus, Your Future</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html" aria-current="page">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="schedule-title">
+            <h2 id="schedule-title">Weekly Schedule</h2>
+
+            <p>
+                View your weekly classes, instructors, and classroom
+                locations. Plan your studies for April 2026.
+            </p>
+
+            <figure>
+                <img src="assets/images/campus.jpg"
+                     alt="University campus with students attending classes">
+                <figcaption>CampusHub academic schedule</figcaption>
+            </figure>
+
+            <section aria-labelledby="month-title">
+                <h3 id="month-title">April 2026</h3>
+
+                <button type="button">Previous Week</button>
+                <button type="button">Next Week</button>
+                <button type="button">Week</button>
+                <button type="button">Month</button>
+            </section>
+
+            <section aria-labelledby="timetable-title">
+                <h3 id="timetable-title">Class Timetable</h3>
+
+                <table>
+                    <caption>Weekly class schedule for April 2026</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Time</th>
+                            <th scope="col">Monday</th>
+                            <th scope="col">Tuesday</th>
+                            <th scope="col">Wednesday</th>
+                            <th scope="col">Thursday</th>
+                            <th scope="col">Friday</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">08:30–10:15</th>
+                            <td>
+                                <strong>Web Development</strong><br>
+                                Instructor: John Smith<br>
+                                Room: A101
+                            </td>
+                            <td>
+                                <strong>Database Systems</strong><br>
+                                Instructor: Emily Johnson<br>
+                                Room: B204
+                            </td>
+                            <td>
+                                <strong>Data Structures</strong><br>
+                                Instructor: Michael Brown<br>
+                                Room: A103
+                            </td>
+                            <td>
+                                <strong>Digital Marketing</strong><br>
+                                Instructor: Sarah Wilson<br>
+                                Room: C105
+                            </td>
+                            <td>
+                                <strong>Web Development</strong><br>
+                                Instructor: John Smith<br>
+                                Room: A101
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">10:30–12:15</th>
+                            <td>
+                                <strong>Database Systems</strong><br>
+                                Instructor: Emily Johnson<br>
+                                Room: B204
+                            </td>
+                            <td>
+                                <strong>Graphic Design</strong><br>
+                                Instructor: Anna Davis<br>
+                                Room: C201
+                            </td>
+                            <td>
+                                <strong>English Language</strong><br>
+                                Instructor: David Miller<br>
+                                Room: B102
+                            </td>
+                            <td>
+                                <strong>Data Structures</strong><br>
+                                Instructor: Michael Brown<br>
+                                Room: A103
+                            </td>
+                            <td>
+                                <strong>Software Engineering</strong><br>
+                                Instructor: Robert Taylor<br>
+                                Room: A202
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">13:00–14:45</th>
+                            <td>
+                                <strong>Digital Marketing</strong><br>
+                                Instructor: Sarah Wilson<br>
+                                Room: C105
+                            </td>
+                            <td>
+                                <strong>Software Engineering</strong><br>
+                                Instructor: Robert Taylor<br>
+                                Room: A202
+                            </td>
+                            <td>
+                                <strong>Database Systems</strong><br>
+                                Instructor: Emily Johnson<br>
+                                Room: B204
+                            </td>
+                            <td>
+                                <strong>Graphic Design</strong><br>
+                                Instructor: Anna Davis<br>
+                                Room: C201
+                            </td>
+                            <td>
+                                <strong>English Language</strong><br>
+                                Instructor: David Miller<br>
+                                Room: B102
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">15:00–16:45</th>
+                            <td>
+                                <strong>Graphic Design</strong><br>
+                                Instructor: Anna Davis<br>
+                                Room: C201
+                            </td>
+                            <td>
+                                <strong>Web Development Lab</strong><br>
+                                Instructor: John Smith<br>
+                                Room: Computer Lab 1
+                            </td>
+                            <td>
+                                <strong>Software Engineering</strong><br>
+                                Instructor: Robert Taylor<br>
+                                Room: A202
+                            </td>
+                            <td>
+                                <strong>English Language</strong><br>
+                                Instructor: David Miller<br>
+                                Room: B102
+                            </td>
+                            <td>
+                                <strong>Study and Consultation</strong><br>
+                                Instructor: Academic Support Team<br>
+                                Room: Library
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section aria-labelledby="schedule-notes">
+                <h3 id="schedule-notes">Schedule Notes</h3>
+                <p>
+                    Please check your weekly schedule regularly.
+                    Class times, instructors, and classrooms may change.
+                    Contact the university administration for updates.
+                </p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub University. All rights reserved.</p>
+
+        <address>
+            Contact us:
+            <a href="mailto:info@campushub.example">
+                info@campushub.example
+            </a>
+        </address>
+
+        <nav aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="announcements.html">Announcements</a>
+        </nav>
+    </footer>
+
+</body>
+</html>-
