@@ -6,6 +6,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore university courses at CampusHub.">
     <title>CampusHub | Courses</title>
+   
+/* ===== CampusHub - Main Styles ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --background: #f4f7fb;
+    --white: #ffffff;
+    --text: #1e293b;
+    --muted: #64748b;
+    --border: #e2e8f0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background: var(--white);
+    padding: 22px 7%;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+header h1 {
+    color: var(--primary);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text);
+    padding: 9px 14px;
+    border-radius: 8px;
+    transition: 0.25s;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    background: var(--primary);
+    color: var(--white);
+}
+
+/* Main content */
+
+main {
+    max-width: 1200px;
+    margin: 35px auto;
+    padding: 0 24px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section > h2 {
+    font-size: 27px;
+    margin-bottom: 12px;
+    color: var(--text);
+}
+
+section > p {
+    color: var(--muted);
+}
+
+/* Search form */
+
+#courseSearch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    background: var(--white);
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+}
+
+#courseSearch label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#courseSearch input,
+#courseSearch select {
+    min-width: 150px;
+    padding: 11px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--white);
+    color: var(--text);
+    font-size: 14px;
+}
+
+#courseSearch input:focus,
+#courseSearch select:focus {
+    outline: 2px solid #93c5fd;
+    border-color: var(--primary);
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: var(--primary);
+    color: var(--white);
+    padding: 11px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: var(--primary-dark);
+}
+
+button[type="reset"] {
+    background: #e2e8f0;
+    color: var(--text);
+}
+
+button[type="reset"]:hover {
+    background: #cbd5e1;
+}
+
+/* Categories */
+
+#categories-title + ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+}
+
+#categories-title + ul a {
+    display: inline-block;
+    text-decoration: none;
+    background: #dbeafe;
+    color: #1d4ed8;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+#categories
+  
 </head>
 <body>
 
